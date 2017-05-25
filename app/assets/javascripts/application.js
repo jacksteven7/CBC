@@ -11,6 +11,17 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.scrollTo
+//= require jquery.nav.js
+//= require jquery.localscroll-1.2.7-min
+//= require bootstrap
+//= require jquery.prettyPhoto
+//= require isotope
+//= require jquery.flexslider
+//= require inview
+//= require animate
+//= require validate
+//= require custom
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
