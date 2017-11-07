@@ -12,7 +12,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'font-awesome-rails', '~> 4.1.0.0'
 
 group :development, :test do
-  gem 'byebug'
   gem 'sqlite3'
 end
 group :production do
