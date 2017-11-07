@@ -57,7 +57,7 @@ div, article, section, header, footer, nav, li {
 }
 body {
 	background:#fff;
-	color: #444;
+	color: black;
 	font-size: 16px;
 	font-weight:300;
 	font-family:'Open Sans', Arial, sans-serif;
@@ -305,17 +305,17 @@ h2.pagetitle {
 }
 .navbar-inverse .navbar-inner {
 	background-repeat: repeat;
-	background-color: #0b333f;
+	background-color: black;
 }
 .navbar-wrapper {
 	overflow:hidden;
 }
 #menu-main {
-	margin-top: 1.125em;
+	margin-top: 1.5em;
 }
 ul#menu-main > li > a {
 	font-weight: 600;
-	color: #fff;
+	color: #fff;	
 	font-size:14px;
 	text-transform:uppercase;
 }
@@ -350,7 +350,7 @@ ul#menu-main > li > a:focus {
 
 
 #header-wrapper h1 {
-	color: #FFFFFF;
+	color: #000000;
 	font-size: 4em;
 	font-weight: 400;
 	margin: 1em 0;
@@ -370,13 +370,7 @@ header .logo {
 }
 
 /* --- Header slider --- */
-#header-wrapper.header-slider {
-	background: #444 url(/bg/bg-1.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
+
 
 #main-flexslider ul.slides li p {
 	font-size: 72px;
@@ -479,8 +473,13 @@ section.spacer {
 	background:#1bac91;
 }
 
-.spacer.green,.section.green h4 {
-	color:#fff;
+.spacer.blue,.section.blue {
+	background: #33ACFF;
+	color: #fff;
+}
+
+.section.blue h4 ,.section.blue h4{
+	color: #fff;
 }
 
 .spacer.yellow,.section.yellow  {
@@ -723,20 +722,20 @@ section.spacer blockquote cite {
 }
 
 
-/* === section services === */
+/* === section ingredients === */
 
-section#services h2 {
+section#ingredients h2 {
 	font-size: 22px;
 	margin-bottom: 15px;
 	margin-top: 10px;
 	text-align:center;
 }
-section#services p {
+section#ingredients p {
 	margin:10px;
 }
 
 
-section#services .service-box {
+section#ingredients .service-box {
 	text-align: center;
 	padding: 20px;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -745,19 +744,53 @@ section#services .service-box {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-section#services .span3:hover {
+section#ingredients .span3:hover {
 	background:#e3e3e3;
 }
 
-section#services .service-box h2 {
+section#ingredients .service-box h2 {
 	color: #f7f7f7;
 	font-weight: 700;
 }
 
-section#services.section.orange .service-box:hover {
+section#ingredients.section.orange .service-box:hover {
 	background:#f36518;
 }
 
+/* === section products === */
+
+section#products h2 {
+	font-size: 22px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	text-align:center;
+}
+section#products p {
+	margin:10px;
+}
+
+
+section#products .service-box {
+	text-align: center;
+	padding: 20px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+section#products .span3:hover {
+	background:#e3e3e3;
+}
+
+section#products .service-box h2 {
+	color: #f7f7f7;
+	font-weight: 700;
+}
+
+section#products.section.orange .service-box:hover {
+	background:#f36518;
+}
 
 /* === section blog === */
 
@@ -1059,7 +1092,7 @@ footer ul.social-networks li i.icon-bgdark {
 
 
 footer ul.social-networks li a i.icon-instagram:hover {
-	background: #ba7b3d;
+	background: #bc2a8d;
 	color: #fff;
 }
 
@@ -1067,6 +1100,12 @@ footer ul.social-networks li a i.icon-twitter:hover {
 	background: #5ad2eb;
 	color: #fff;
 }
+
+footer ul.social-networks li a i.icon-facebook:hover {
+	background: #3B5998;
+	color: #fff;
+}
+
 footer ul.social-networks li a i.icon-dribbble:hover {
 	background: #f57b71;
 	color: #fff;
@@ -1673,13 +1712,19 @@ i.icon-white {
  display: block;
 }
 
- section#services h2 {
+ section#ingredients h2 {
  margin-bottom: 0.25em;
 }
- section#services h2, section#services ul {
+ section#ingredients h2, section#ingredients ul {
  text-align: center;
 }
 
+ section#products h2 {
+ margin-bottom: 0.25em;
+}
+ section#products h2, section#products ul {
+ text-align: center;
+}
 
 /* team */
 

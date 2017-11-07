@@ -52,6 +52,8 @@ GEM
     debug_inspector (0.0.3)
     erubis (2.7.0)
     execjs (2.7.0)
+    font-awesome-rails (4.1.0.0)
+      railties (>= 3.2, < 5.0)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     i18n (0.8.1)
@@ -146,6 +148,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  font-awesome-rails (~> 4.1.0.0)
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.2.7.1)
@@ -158,4 +161,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.14.6
+   1.16.0
