@@ -12,6 +12,6 @@ test:
 
 production:
   adapter: postgresql
-  database: my_database
+  database: postgresql-rugged-38756
   pool: 5
   timeout: 5000
