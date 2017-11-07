@@ -23,8 +23,6 @@ CONTENTS:
 /* Import css */
 /* Google font */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
-/* bootstrap */
-@import url('bootstrap.css');
 /* bootstrap responsive */
 @import url('bootstrap-responsive.css');
 /* prettyPhoto */
