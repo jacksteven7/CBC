@@ -10,9 +10,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'font-awesome-rails', '~> 4.1.0.0'
+gem 'pg'
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'byebug'
 end
 
